@@ -19,3 +19,9 @@ create table users (
     name varchar(80) not null,
     constraint pk_user primary key (id)
 );
+
+create table books (
+    id varchar(80) not null,
+    name varchar(80) not null,
+    constraint pk_book primary key (id)
+);

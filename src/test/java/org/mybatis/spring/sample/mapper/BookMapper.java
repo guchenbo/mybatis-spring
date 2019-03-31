@@ -14,15 +14,15 @@
 package org.mybatis.spring.sample.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.mybatis.spring.sample.domain.User;
+import org.mybatis.spring.sample.domain.Book;
 
 /**
  * A org.mybatis.spring sample mapper. This interface will be used by MapperFactoryBean to create a
  * proxy implementation at Spring application startup.
  */
 @Mapper
-public interface UserMapper {
+public interface BookMapper {
 
-    User getUser(String userId);
+    Book getBook(String bookId);
 
 }
